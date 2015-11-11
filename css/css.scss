@@ -1,0 +1,20 @@
+---
+---
+
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,400italic);
+
+$white: #fdfdfd;
+$black: #444;
+
+
+body{
+    font-family: 'Vollkorn', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: $black;
+    background: $white;
+}
+p{
+    max-width: 750px;
+}
+    

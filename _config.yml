@@ -1,0 +1,9 @@
+title: ProCicerone
+description: Sunto delle orazioni ciceroniane
+baseurl: "/"
+url: "procicerone.github.io"
+
+markdown: kramdown
+
+sass:
+    style: :compressed
