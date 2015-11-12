@@ -2,13 +2,18 @@
 ---
 
 @import url(https://fonts.googleapis.com/css?family=Vollkorn:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 
 $white: #fdfdfd;
+$grey: #eee;
 $black: #444;
 
+$main-font: 'Vollkorn', serif;
+$second-font: 'Open Sans', sans-serif;
 
 body{
-    font-family: 'Vollkorn', serif;
+    font-family: $main-font;
     font-size: 24px;
     font-weight: 400;
     color: $black;
@@ -17,4 +22,12 @@ body{
 p{
     max-width: 750px;
 }
-    
+a {
+  color: #acb7c0;
+  text-decoration: none;
+  font-family: $second-font;
+}
+h1, h2 {
+  font-family: $second-font;
+  font-weight: bold;
+}

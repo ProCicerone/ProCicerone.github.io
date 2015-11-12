@@ -1,6 +1,6 @@
 title: ProCicerone
 description: Sunto delle orazioni ciceroniane
-baseurl: "/"
+baseurl: ""
 url: "procicerone.github.io"
 
 markdown: kramdown
