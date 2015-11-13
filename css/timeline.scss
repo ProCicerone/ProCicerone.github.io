@@ -25,10 +25,6 @@ a {
     font-family: $second-font;
 }
 
-img {
-    max-width: 100%;
-}
-
 h1,h2 {
     font-family: $second-font;
     font-weight: 700;
@@ -47,6 +43,11 @@ h1,h2 {
     display: table;
     clear: both;
 }
+
+
+/*
+** TIMELINE
+*/
 
 #timeline {
     position: relative;
@@ -178,12 +179,12 @@ h1,h2 {
     color: #303e49;
 }
 
-.timeline-content p,.timeline-content .read-more,.timeline-content .date {
+.timeline-content p, .timeline-content .read-more {
     font-size: 13px;
     font-size: .8125rem;
 }
 
-.timeline-content .read-more,.timeline-content .date {
+.timeline-content .read-more {
     display: inline-block;
 }
 
@@ -200,14 +201,8 @@ h1,h2 {
     border-radius: .25em;
 }
 
-.no-touch .timeline-content .read-more:hover {
+.timeline-content .read-more:hover {
     background-color: #bac4cb;
-}
-
-.timeline-content .date {
-    float: left;
-    padding: .8em 0;
-    opacity: .7;
 }
 
 .timeline-content::before {
@@ -232,7 +227,7 @@ h1,h2 {
         font-size: 1rem;
     }
 
-    .timeline-content .read-more,.timeline-content .date {
+    .timeline-content .read-more {
         font-size: 14px;
         font-size: .875rem;
     }
@@ -256,15 +251,6 @@ h1,h2 {
         float: left;
     }
 
-    .timeline-content .date {
-        position: absolute;
-        width: 100%;
-        left: 122%;
-        top: 6px;
-        font-size: 16px;
-        font-size: 1rem;
-    }
-
     .timeline-block .timeline-content.left {
         float: right;
     }
@@ -279,11 +265,5 @@ h1,h2 {
 
     .timeline-block .timeline-content.left .read-more {
         float: right;
-    }
-
-    .timeline-block .timeline-content.left .date {
-        left: auto;
-        right: 122%;
-        text-align: right;
     }
 }
