@@ -170,7 +170,7 @@ header{
     margin-left: 60px;
     background: $white;
     border-radius: .25em;
-    padding: 1em;
+    padding: 0.75em;
     box-shadow: 0 3px 0 #black;
 }
 
@@ -210,7 +210,7 @@ header{
 }
 
 .timeline-content .read-more {
-    padding: .8em 1em;
+    padding: .4em 0.5em;
     background: $grey;
     color: $blue;
     border-radius: .25em;
@@ -241,7 +241,7 @@ header{
 @media only screen and (min-width: 1170px) {
     .timeline-content {
         margin-left: 0;
-        padding: 1.6em;
+        /* padding: 1.6em; */
         width: 45%;
     }
 
@@ -253,7 +253,7 @@ header{
     }
 
     .timeline-block .timeline-content.left {
-        float: right;
+        float: right; /* This feels wrong */
     }
 
     .timeline-block .timeline-content.left::before {
