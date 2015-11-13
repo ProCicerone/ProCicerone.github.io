@@ -21,14 +21,19 @@ body {
 }
 
 a {
-    color: #acb7c0;
+    color: $blue;
     text-decoration: none;
     font-family: $second-font;
 }
 
 h1,h2 {
+    color: $black;
     font-family: $second-font;
     font-weight: 700;
+}
+
+header{
+    text-align: center;
 }
 
 .container {
@@ -175,36 +180,6 @@ h1,h2 {
     clear: both;
 }
 
-.timeline-content h2 {
-    color: #303e49;
-}
-
-.timeline-content p, .timeline-content .read-more {
-    font-size: 13px;
-    font-size: .8125rem;
-}
-
-.timeline-content .read-more {
-    display: inline-block;
-}
-
-.timeline-content p {
-    margin: 1em 0;
-    line-height: 1.6;
-}
-
-.timeline-content .read-more {
-    float: right;
-    padding: .8em 1em;
-    background: #acb7c0;
-    color: #fff;
-    border-radius: .25em;
-}
-
-.timeline-content .read-more:hover {
-    background-color: #bac4cb;
-}
-
 .timeline-content::before {
     content: '';
     position: absolute;
@@ -222,6 +197,28 @@ h1,h2 {
 
 .timeline-content.left {
     border-left: medium solid $blue;
+}
+
+.timeline-content p {
+    margin: 1em 0;
+    line-height: 1.6;
+}
+
+.timeline-content p, .timeline-content .read-more {
+    font-size: 13px;
+    font-size: .8125rem;
+}
+
+.timeline-content .read-more {
+    padding: .8em 1em;
+    background: $grey;
+    color: $blue;
+    border-radius: .25em;
+}
+
+.timeline-content .read-more:hover {
+    background-color: $red;
+    color: $white;
 }
 
 @media only screen and (min-width: 768px) {
@@ -255,10 +252,6 @@ h1,h2 {
         border-left-color: #fff;
     }
 
-    .timeline-content .read-more {
-        float: left;
-    }
-
     .timeline-block .timeline-content.left {
         float: right;
     }
@@ -269,9 +262,5 @@ h1,h2 {
         right: 100%;
         border-color: transparent;
         border-right-color: #fff;
-    }
-
-    .timeline-block .timeline-content.left .read-more {
-        float: right;
     }
 }
