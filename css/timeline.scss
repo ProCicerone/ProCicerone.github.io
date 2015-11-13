@@ -6,6 +6,8 @@ $grey: #eee;
 $black: #444;
 $red: #d64541;
 $blue: #147ccc;
+$lightred: #ff9d9a;
+$lightblue: #65bcff;
 
 $main-font: 'Vollkorn', serif;
 $second-font: 'Open Sans', sans-serif;
@@ -197,6 +199,25 @@ header{
 
 .timeline-content.left {
     border-left: medium solid $blue;
+
+}
+.timeline-content.right p::selection {
+    background: $lightred;
+    color: $white;
+}
+
+.timeline-content.right p::-moz-selection {
+    background: $lightred;
+    color: $white;
+}
+
+.timeline-content.left p::selection {
+    background: $lightblue;
+    color: $white;
+}
+.timeline-content.left p::-moz-selection {
+    background: $lightblue;
+    color: $white;
 }
 
 .timeline-content p {
@@ -241,7 +262,6 @@ header{
 @media only screen and (min-width: 1170px) {
     .timeline-content {
         margin-left: 0;
-        /* padding: 1.6em; */
         width: 45%;
     }
 
