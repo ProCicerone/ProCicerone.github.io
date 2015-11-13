@@ -5,6 +5,7 @@ $white: #fdfdfd;
 $grey: #eee;
 $black: #444;
 $red: #d64541;
+$blue: #147ccc;
 
 $main-font: 'Vollkorn', serif;
 $second-font: 'Open Sans', sans-serif;
@@ -48,7 +49,6 @@ h1,h2 {
 /*
 ** TIMELINE
 */
-
 #timeline {
     position: relative;
     padding: 2em 0;
@@ -214,6 +214,14 @@ h1,h2 {
     width: 0;
     border: 7px solid transparent;
     border-right: 7px solid #fff;
+}
+
+.timeline-content.right {
+    border-left: medium solid $red;
+}
+
+.timeline-content.left {
+    border-left: medium solid $blue;
 }
 
 @media only screen and (min-width: 768px) {
