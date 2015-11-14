@@ -7,3 +7,4 @@ markdown: kramdown
 
 sass:
     style: :compressed
+    sass_dir: css/

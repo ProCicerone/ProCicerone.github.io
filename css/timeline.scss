@@ -1,16 +1,7 @@
 ---
 ---
 
-$white: #fdfdfd;
-$grey: #eee;
-$black: #444;
-$red: #d64541;
-$blue: #147ccc;
-$lightred: #ff9d9a;
-$lightblue: #65bcff;
-
-$main-font: 'Vollkorn', serif;
-$second-font: 'Open Sans', sans-serif;
+@import "variables";
 
 *,:after,:before {
     -webkit-box-sizing: border-box;

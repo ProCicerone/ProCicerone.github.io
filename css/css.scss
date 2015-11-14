@@ -1,16 +1,7 @@
 ---
 ---
 
-@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,400italic);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-
-$white: #fdfdfd;
-$grey: #eee;
-$black: #444;
-
-$main-font: 'Vollkorn', serif;
-$second-font: 'Open Sans', sans-serif;
+@import "variables";
 
 body{
     font-family: $main-font;
