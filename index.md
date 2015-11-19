@@ -6,7 +6,7 @@ title: Domus
 # Pro Cicerone
 
 ## Introduzione a Cicerone
-Cicerone è l'autore latino che ha lasciato più scritti in assoluto. È un personaggio significativo per ciò che riguarda l'ambito politico, sociale, storico e letterario del suo tempo dovuto anche ala molteplicità di interessi perseguiti.
+Cicerone è l'autore latino che ha lasciato più scritti in assoluto. È un personaggio significativo per ciò che riguarda l'ambito politico, sociale, storico e letterario del suo tempo dovuto anche alla molteplicità di interessi perseguiti.
 
 Vive a pieno il periodo denominato “crisi della repubblica” dove si ha un progressivo smarrimento degli ideali del *mos maiorum* e delle istituzioni repubblicane, di cui Cicerone è convinto sostenitore. Ciò, ad un'analisi successiva, può parere un errore: non ha infatti riconosciuto il cambiamento ormai avvenuto a livello socio-politico e culturale dell'impero romano e l'inadeguatezza delle istituzioni repubblicane a governo di un territorio troppo vasto.
 
