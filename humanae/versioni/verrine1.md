@@ -1,6 +1,6 @@
 ---
 layout: default
-title: verrine1
+title: Verrine 1, 1, 1-3
 ---
 
 #Verrine 1, 1, 1-3
