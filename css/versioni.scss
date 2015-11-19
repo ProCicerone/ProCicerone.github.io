@@ -1,0 +1,20 @@
+---
+---
+
+@import "variables";
+
+body {
+    font-size: 16px;
+    margin: 15px 15px 15px 15px;
+}
+
+#original {
+    float: left;
+    width: 45%;
+    padding: 10px;
+}
+
+#translation {
+    margin-left: 45%;
+    padding: 10px;
+}
