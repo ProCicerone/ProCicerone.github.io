@@ -10,6 +10,17 @@ title: Linea del tempo
     <title>{{ page.title }}</title>
     <link href="{{site.baseurl}}/css/css.css" rel="stylesheet" type="text/css">
     <link href="{{site.baseurl}}/css/timeline.css" rel="stylesheet"><!-- Resource style -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+            $("p").hide();
+            $("a").hide();
+            $(".timeline-content").click(function(){
+                $(this).children("p").slideToggle("fast", "linear");
+                $(this).children("a").toggle();
+            });
+        });
+    </script>
 </head>
 <body>
     <header>
