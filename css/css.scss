@@ -1,7 +1,7 @@
 ---
 ---
 @import "variables";
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Vollkorn:400,400italic);
 
 body{
@@ -10,16 +10,25 @@ body{
     font-weight: 400;
     color: $black;
     background: $white;
+    margin-right: 12%;
+    margin-left: 12%
 }
 p{
     max-width: 750px;
 }
 a {
-  color: #acb7c0;
-  text-decoration: none;
-  font-family: $second-font;
+    color: $blue;
+    text-decoration: none;
+    font-family: $second-font;
+}
+a:hover {
+    color: $lightblue;
 }
 h1, h2 {
-  font-family: $second-font;
-  font-weight: bold;
+    font-family: $second-font;
+    font-weight: 700;
+}
+h1 {
+    color: $red;
+    text-transform: uppercase;
 }
