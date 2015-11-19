@@ -11,8 +11,8 @@
 
 body {
     background-color: $grey;
+    margin: 0 0 0 0;
 }
-
 a {
     color: $blue;
     text-decoration: none;
@@ -228,7 +228,6 @@ header{
     color: $white;
 }
 
-@media only screen and (min-width: 768px) {
     .timeline-content h2 {
         font-size: 20px;
         font-size: 1.25rem;
@@ -243,7 +242,6 @@ header{
         font-size: 14px;
         font-size: .875rem;
     }
-}
 
 @media only screen and (min-width: 1170px) {
     .timeline-content {
