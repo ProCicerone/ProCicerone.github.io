@@ -3,6 +3,23 @@
     <head>
     {% include head.html%}
     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/versioni.css">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+            $('.trigger').on({
+                mouseover: function(){
+                    $('#target-'+$(this).attr('id')).addClass('highlight')
+                },
+                mouseleave: function(){
+                    $('#target-'+$(this).attr('id')).removeClass('highlight')
+                },
+                click: function(){
+                    $(this).off('mouseleave')
+                    $('#target-'+$(this).attr('id')).addClass('highlight')
+                }
+            });
+        });
+    </script>
     </head>
     <body>
         {{ content }}
