@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: versione
 title: Verrine 1, 1, 1-3
 ---
 
