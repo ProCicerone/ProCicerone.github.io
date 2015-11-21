@@ -165,6 +165,7 @@ header{
     border-radius: .25em;
     padding: 0.5em;
     box-shadow: 0 3px 0 #ddd;
+    cursor: pointer;
 }
 
 
@@ -185,6 +186,14 @@ header{
 
 .timeline-content.left {
     border-left: medium solid $blue;
+
+}
+.timeline-content.right:hover {
+    border-left: medium solid $lightred;
+}
+
+.timeline-content.left:hover {
+    border-left: medium solid $lightblue;
 
 }
 .timeline-content.right p::selection {
