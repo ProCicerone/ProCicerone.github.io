@@ -8,14 +8,23 @@
         $(document).ready(function(){
             $('.trigger').on({
                 mouseover: function(){
-                    $('#target-'+$(this).attr('id')).addClass('highlight')
+                    $('#target-' + $(this).attr('id')).addClass('highlight')
                 },
                 mouseleave: function(){
-                    $('#target-'+$(this).attr('id')).removeClass('highlight')
+                    if (!$('#target-' + $(this).attr('id')).data('pinned')) {
+                        $('#target-' + $(this).attr('id')).removeClass('highlight')
+                    }
                 },
                 click: function(){
-                    $(this).off('mouseleave')
-                    $('#target-'+$(this).attr('id')).addClass('highlight')
+                    if ($('#target-' + $(this).attr('id')).data('pinned')) {
+                        $('#target-' + $(this).attr('id')).data('pinned', '');
+                        $('#target-' + $(this).attr('id')).removeClass('highlight')
+                        $(this).removeClass('highlight')
+                    } else {
+                        $('#target-' + $(this).attr('id')).addClass('highlight');
+                        $('#target-' + $(this).attr('id')).data('pinned', 'YES');
+                        $(this).addClass('highlight')
+                    }
                 }
             });
         });
