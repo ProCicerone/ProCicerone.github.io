@@ -1,8 +1,3 @@
----
-layout: default
-title: Pro Caelio 49-50
----
-
 #Pro Caelio 49-50
 
 ##Testo latino

@@ -1,7 +1,3 @@
----
-layout: default
-title: Catilinaria 1, 1-6
----
 #Catilinaria 1, 1-6
 
 ##Testo latino

@@ -1,8 +1,3 @@
----
-layout: default
-title: Verrine 2, 5, 26-27
----
-
 #Verrine 2, 5, 26-27
 
 ##Testo latino
