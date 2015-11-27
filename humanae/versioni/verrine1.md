@@ -1,8 +1,3 @@
----
-layout: versione
-title: Verrine 1, 1, 1-3
----
-
 #Verrine 1, 1, 1-3
 
 ##Testo latino
