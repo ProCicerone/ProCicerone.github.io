@@ -7,13 +7,62 @@ body {
     font-size: 16px;
     margin: 15px 15px 15px 15px;
 }
-.highlight {
-    border-radius: 3px;
-    padding: 0.2em;
+
+/* TARGETS */
+.target.yellow.highlight {
+    background: $lightyellow;
 }
 .target.highlight {
-    background-color: $lightred;
 }
-.trigger.highlight {
-    background-color: $lightblue;
+.target.red.highlight {
+    background: $lightred;
 }
+.target.blue.highlight {
+    background: $lightblue;
+}
+.target.green.highlight {
+    background: $lightgreen;
+}
+
+/* TRIGGERS */
+#trigger-wrapper {
+    position: fixed;
+    right: 12%;
+    top: 12%;
+    padding: 10px;
+    max-width: 200px;
+    div {
+        height: 20px;
+        width: 100px;
+        float: left;
+        background: $grey;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 5px;
+        border: medium solid $grey;
+    }
+    div:hover{
+        border: medium solid $white;
+        cursor: pointer;
+    } 
+    div.clicked {
+        color: $white;
+        border: medium solid $white;
+    }
+    div.red.clicked {
+        background: $red;
+    }
+    div.blue.clicked {
+        background: $blue;
+    }
+    div.yellow.clicked {
+        background: $yellow;
+    }
+    div.green.clicked {
+        background: $green;
+    }
+        
+}
+

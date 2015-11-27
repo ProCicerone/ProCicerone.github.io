@@ -8,22 +8,23 @@
         $(document).ready(function(){
             $('.trigger').on({
                 mouseover: function(){
-                    $('#target-' + $(this).attr('id')).addClass('highlight')
+                    $('.target.' + $(this).attr('class').substr(8)).addClass('highlight')
                 },
                 mouseleave: function(){
-                    if (!$('#target-' + $(this).attr('id')).data('pinned')) {
-                        $('#target-' + $(this).attr('id')).removeClass('highlight')
+                    if (!$(this).hasClass('clicked')) {
+                        $('.target.' + $(this).attr('class').substr(8)).removeClass('highlight')
                     }
                 },
                 click: function(){
-                    if ($('#target-' + $(this).attr('id')).data('pinned')) {
-                        $('#target-' + $(this).attr('id')).data('pinned', '');
-                        $('#target-' + $(this).attr('id')).removeClass('highlight')
-                        $(this).removeClass('highlight')
+                    if ($(this).hasClass('clicked')) {
+                        $('.target.' + $(this).attr('class').substr(8)).removeClass('highlight')
+                        $(this).removeClass('clicked')
                     } else {
-                        $('#target-' + $(this).attr('id')).addClass('highlight');
-                        $('#target-' + $(this).attr('id')).data('pinned', 'YES');
-                        $(this).addClass('highlight')
+                        $('#trigger-wrapper > div').data('pinned','')
+                        $('.trigger').removeClass('clicked')
+                        $('.target').removeClass('highlight')
+                        $('.target.' + $(this).attr('class').substr(8)).addClass('highlight');
+                        $(this).addClass('clicked')
                     }
                 }
             });
