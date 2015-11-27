@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    {% include head.html%}
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/versioni.css">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+            $('.trigger').on({
+                mouseover: function(){
+                    $('#target-' + $(this).attr('id')).addClass('highlight')
+                },
+                mouseleave: function(){
+                    if (!$('#target-' + $(this).attr('id')).data('pinned')) {
+                        $('#target-' + $(this).attr('id')).removeClass('highlight')
+                    }
+                },
+                click: function(){
+                    if ($('#target-' + $(this).attr('id')).data('pinned')) {
+                        $('#target-' + $(this).attr('id')).data('pinned', '');
+                        $('#target-' + $(this).attr('id')).removeClass('highlight')
+                        $(this).removeClass('highlight')
+                    } else {
+                        $('#target-' + $(this).attr('id')).addClass('highlight');
+                        $('#target-' + $(this).attr('id')).data('pinned', 'YES');
+                        $(this).addClass('highlight')
+                    }
+                }
+            });
+        });
+    </script>
+    </head>
+    <body>
+        {{ content }}
+    </body>
+</html>

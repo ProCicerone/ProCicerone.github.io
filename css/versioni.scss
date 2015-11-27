@@ -1,0 +1,19 @@
+---
+---
+
+@import "variables";
+
+body {
+    font-size: 16px;
+    margin: 15px 15px 15px 15px;
+}
+.highlight {
+    border-radius: 3px;
+    padding: 0.2em;
+}
+.target.highlight {
+    background-color: $lightred;
+}
+.trigger.highlight {
+    background-color: $lightblue;
+}
