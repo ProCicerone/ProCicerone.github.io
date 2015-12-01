@@ -5,25 +5,28 @@
     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/versioni.css">
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script> 
+        function prendiClasse(selettore) {
+            return selettore.attr('class').substr(8);
+        }
         $(document).ready(function(){
             $('.trigger').on({
                 mouseover: function(){
-                    $('.target.' + $(this).attr('class').substr(8)).addClass('highlight')
+                    $('.target.' + prendiClasse($(this))).addClass('highlight')
                 },
                 mouseleave: function(){
                     if (!$(this).hasClass('clicked')) {
-                        $('.target.' + $(this).attr('class').substr(8)).removeClass('highlight')
+                        $('.target.' + prendiClasse($(this))).removeClass('highlight')
                     }
                 },
                 click: function(){
                     if ($(this).hasClass('clicked')) {
-                        $('.target.' + $(this).attr('class').substr(8)).removeClass('highlight')
+                        $('.target.' + prendiClasse($(this))).removeClass('highlight')
                         $(this).removeClass('clicked')
                     } else {
                         $('#trigger-wrapper > div').data('pinned','')
                         $('.trigger').removeClass('clicked')
                         $('.target').removeClass('highlight')
-                        $('.target.' + $(this).attr('class').substr(8)).addClass('highlight');
+                        $('.target.' + prendiClasse($(this))).addClass('highlight');
                         $(this).addClass('clicked')
                     }
                 }
