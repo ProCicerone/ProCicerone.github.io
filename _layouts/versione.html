@@ -6,30 +6,24 @@
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script> 
         function prendiClasse(selettore) {
-            return selettore.attr('class').substr(8);
+            return selettore.attr('class').substr(8); // super bad hack, valid only for triggers
+        }
+        function cleanUp() {
+            $('[class*="highlight"]').removeClass(function(i, c) {
+                return c.match(/highlight-.*/g).join(" ");
+            }) 
         }
         $(document).ready(function(){
-            $('.trigger').on({
-                mouseover: function(){
-                    $('.target.' + prendiClasse($(this))).addClass('highlight')
-                },
-                mouseleave: function(){
-                    if (!$(this).hasClass('clicked')) {
-                        $('.target.' + prendiClasse($(this))).removeClass('highlight')
-                    }
-                },
-                click: function(){
+            $('.trigger').click(function (){
                     if ($(this).hasClass('clicked')) {
-                        $('.target.' + prendiClasse($(this))).removeClass('highlight')
-                        $(this).removeClass('clicked')
+                        cleanUp();
+                        $(this).removeClass('clicked');
                     } else {
-                        $('#trigger-wrapper > div').data('pinned','')
-                        $('.trigger').removeClass('clicked')
-                        $('.target').removeClass('highlight')
-                        $('.target.' + prendiClasse($(this))).addClass('highlight');
-                        $(this).addClass('clicked')
+                        cleanUp();
+                        $('.trigger').removeClass('clicked');
+                        $('.target.' + prendiClasse($(this))).addClass('highlight' + '-' + prendiClasse($(this)));
+                        $(this).addClass('clicked');
                     }
-                }
             });
         });
     </script>
