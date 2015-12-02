@@ -23,6 +23,9 @@
                         $('.trigger').removeClass('clicked');
                         $('.target.' + prendiClasse($(this))).addClass('highlight' + '-' + prendiClasse($(this)));
                         $(this).addClass('clicked');
+                        if ($('.target.' + prendiClasse($(this))).hasClass('vector')) {
+                            $('.target.' + prendiClasse($(this))).append('<span class="vectorNumber">' + ($('.target.' + prendiClasse($(this))).attr('id').substr(3))) 
+                        }
                     }
             });
         });
