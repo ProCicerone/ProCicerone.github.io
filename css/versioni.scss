@@ -21,27 +21,16 @@ body {
 .highlight-green {
     background: $lightgreen;
 }
-.highlight-iper {
-    background: -moz-linear-gradient( left ,
-        rgba(255, 0, 0, 1) 0%,
-        rgba(255, 255, 0, 1) 15%,
-        rgba(0, 255, 0, 1) 30%,
-        rgba(0, 255, 255, 1) 50%,
-        rgba(0, 0, 255, 1) 65%,
-        rgba(255, 0, 255, 1) 80%,
-        rgba(255, 0, 0, 1) 100%);
-    background: -webkit-gradient(linear,  left top,  right top, 
-        color-stop(0%, rgba(255, 0, 0, 1)), 
-        color-stop(15%, rgba(255, 255, 0, 1)),
-        color-stop(30%, rgba(0, 255, 0, 1)),
-        color-stop(50%, rgba(0, 255, 255, 1)),
-        color-stop(65%, rgba(0, 0, 255, 1)),
-        color-stop(80%, rgba(255, 0, 255, 1)),
-        color-stop(100%, rgba(255, 0, 0, 1)));
-    color: white;
+.highlight-orange {
+    background: $lightorange;
 }
 .vectorNumber {
-    color: $red;
+    color: $black;
+    position: relative;
+    bottom: 0.75ex;
+    padding: 0.25ex;
+    margin: 0.25ex;
+    background: $grey;
 }
 
 /* TRIGGERS */
@@ -89,6 +78,9 @@ body {
     div.green.clicked {
         background: $green;
     }
-        
+    div.orange.clicked {
+        background: $orange;
+    }
+       
 }
 
