@@ -21,6 +21,17 @@ body {
 .highlight-green {
     background: $lightgreen;
 }
+.highlight-orange {
+    background: $lightorange;
+}
+.vectorNumber {
+    color: $black;
+    position: relative;
+    bottom: 0.75ex;
+    padding: 0.25ex;
+    margin: 0.25ex;
+    background: $grey;
+}
 
 /* TRIGGERS */
 #trigger-wrapper {
@@ -67,6 +78,9 @@ body {
     div.green.clicked {
         background: $green;
     }
-        
+    div.orange.clicked {
+        background: $orange;
+    }
+       
 }
 
