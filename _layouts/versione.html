@@ -4,45 +4,9 @@
     {% include head.html%}
     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/versioni.css">
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-    <script> 
-        function prendiClasse(selettore) {
-            return selettore.attr('class').split(' ')[1];
-        }
-        function cleanUp() {
-            $('[class*="highlight"]').removeClass(function(i, c) {
-                return c.match(/highlight-.*/g).join(" ");
-            }) 
-            $('span.vectorNumber').remove();
-        }
-        $(document).ready(function(){
-            $('.trigger').click(function (){
-                    if ($(this).hasClass('clicked')) {
-                        cleanUp();
-                        $(this).removeClass('clicked');
-                    } else {
-                        cleanUp();
-                        $('.trigger').removeClass('clicked');
-                        $('.target.' + prendiClasse($(this))).addClass('highlight' + '-' + prendiClasse($(this)));
-                        $(this).addClass('clicked');
-                        if ($('.target.' + prendiClasse($(this))).hasClass('vector')) {
-                            $('.target.' + prendiClasse($(this))).each(function(index){
-                                $(this).append('<span class="vectorNumber">' + $(this).attr('id').substr(3) + '</span>');
-                            });
-                        }
-                    }
-            });
-            $('#burger').data('isClosed', '')
-            $('#burger').click(function() {
-                if (!($(this).data('isClosed'))) {
-                    $('#trigger-wrapper').animate({right: '25%'}, 500);
-                    $(this).data('isClosed', 'yes')
-                } else {
-                    $('#trigger-wrapper').animate({right: '-200px'}, 500);
-                    $(this).data('isClosed', '')
-                }
-            });
-        });
-    </script>
+    <script src="{{site.baseurl}}/js/retor.js"></script>
+    <script src="{{site.baseurl}}/js/burger.js"></script>
+    <script src="{{site.baseurl}}/js/foot.js"></script>
     </head>
     <body>
         {{ content }}
