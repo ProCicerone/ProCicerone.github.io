@@ -19,6 +19,19 @@ title: Linea del tempo
                 $(this).children("p").slideToggle("fast", "linear");
                 $(this).children("a").toggle();
             });
+            $('#toggle-all').text('Espandi tutto');
+            $(this).data('val', 'espandi');
+            $('#toggle-all').click(function() {
+                $('#timeline').find("p").slideToggle("fast", "linear");
+                $('#timeline').find("a").toggle();
+                if ($(this).data('val') === 'espandi') {
+                    $(this).data('val', 'chiudi');
+                    $('#toggle-all').text('Espandi tutto');
+                } else {
+                    $(this).data('val', 'espandi');
+                    $('#toggle-all').text('Comprimi tutto');
+                }
+            });
         });
     </script>
 </head>
@@ -27,6 +40,7 @@ title: Linea del tempo
         <h1>CICERONE</h1>
         <h2>Vita e Opere</h2>
     </header>
+    <div id="toggle-all"></div>
     <section class="container" id="timeline">
         <div class="timeline-block">
             <div class="timeline-node">

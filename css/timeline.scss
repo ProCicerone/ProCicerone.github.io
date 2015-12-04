@@ -277,3 +277,21 @@ header{
         border-right-color: #fff;
     }
 }
+
+/* TOGGLE ALL */
+#toggle-all {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    background: $white;
+    color: $blue;
+    font-family: $second-font;
+    z-index: 100;
+    cursor: pointer;
+}
+
+#toggle-all:hover {
+    color: white;
+    background: $red;
+}
