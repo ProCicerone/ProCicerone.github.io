@@ -160,7 +160,6 @@ header{
     border-radius: .25em;
     padding: 0.5em;
     box-shadow: 0 3px 0 #ddd;
-    cursor: pointer;
 }
 
 
@@ -273,4 +272,18 @@ header{
     right: 10px;
     background: $white;
     z-index: 100;
+}
+
+/* TOGGLE CONTENT */
+.toggle-content {
+    @include makeClickable();
+    transform: rotate(45deg);
+    position: relative;
+    font-weight: 700;
+    float: right;
+    font-size: 175%;
+    color: $darkgrey;
+}
+.toggle-content.rotated {
+    transform: rotate(0deg);
 }

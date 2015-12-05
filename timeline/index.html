@@ -14,10 +14,11 @@ title: Linea del tempo
     <script> 
         $(document).ready(function(){
             $("p").hide();
-            $("a").hide();
-            $(".timeline-content").click(function(){
-                $(this).children("p").slideToggle("fast", "linear");
-                $(this).children("a").toggle();
+            $(".read-more").hide();
+            $(".toggle-content").click(function(){
+                $(this).parent().find("p").slideToggle("fast", "linear");
+                $(this).parent().find(".read-more").toggle();
+                $(this).toggleClass('rotated');
             });
             $('#toggle-all').text('Espandi tutto');
             $(this).data('val', 'espandi');
@@ -26,12 +27,14 @@ title: Linea del tempo
                     $(this).data('val', 'chiudi');
                     $('#toggle-all').text('Espandi tutto');
                     $('#timeline').find("p").slideUp("fast", "linear");
-                    $('#timeline').find("a").hide();
+                    $('#timeline').find(".read-more").hide();
+                    $('.toggle-content').removeClass('rotated');
                 } else {
                     $(this).data('val', 'espandi');
                     $('#toggle-all').text('Comprimi tutto');
                     $('#timeline').find("p").slideDown("fast", "linear");
-                    $('#timeline').find("a").show();
+                    $('#timeline').find(".read-more").show();
+                    $('.toggle-content').addClass('rotated');
                 }
             });
         });
@@ -51,6 +54,7 @@ title: Linea del tempo
                 </div>
             </div>
             <div class="timeline-content right">
+            <a class="toggle-content">&times;</a>
                 <h2>Nascita</h2>
                 <p>Marco Tullio Cicerone nasce ad Arpino. Segue i primi studi di retorica e filosofia a Roma.</p>
             </div>
@@ -62,6 +66,7 @@ title: Linea del tempo
                 </div>
             </div>
             <div class="timeline-content left">
+            <a class="toggle-content">&times;</a>
                 <h2>Prima causa</h2>
                 <p>Cicerone pronuncia la sua prima causa.</p>
             </div>
@@ -73,6 +78,7 @@ title: Linea del tempo
                 </div>
             </div>
             <div class="timeline-content left">
+            <a class="toggle-content">&times;</a>
                 <h2>Pro Sexto Roscio Amerino</h2>
                 <p>Orazione in difesa di Sesto Roscio Amerino, che era stato accusato di parricidio da potenti figure dell'entourage di Lucio Silla, le quali avevano addotto false prove per eliminarlo. È un'orazione giudiziaria con uno stile che subisce ancora larga influenza da parte dell'asianesimo.</p>
             </div>
@@ -84,6 +90,7 @@ title: Linea del tempo
                 </div>
             </div>
             <div class="timeline-content right">
+            <a class="toggle-content">&times;</a>
                 <h2>Viaggio in Grecia</h2>
                 <p>Dal 79 al 77 compie viaggi in Grecia e in Asia, durante i quali studia filosofia e retorica.</p>
             </div>
@@ -95,6 +102,7 @@ title: Linea del tempo
                 </div>
             </div>
             <div class="timeline-content right">
+            <a class="toggle-content">&times;</a>
                 <h2>Questura</h2>
                 <p>Cicerone viene eletto questore in Sicilia.</p>
             </div>
@@ -106,6 +114,7 @@ title: Linea del tempo
                 </div>
             </div>
             <div class="timeline-content left">
+            <a class="toggle-content">&times;</a>
                 <h2>Verrine</h2>
                 <p>Orazioni giudiziarie contro Verre. Cicerone era infatti stato richiamato dagli abitanti della Sicilia perché fossero difesi dai soprusi del governatore. L'orazione si articola in cinque parti, tuttavia vennero pronunciate solo le prime due (<em>Divinatio in Caecilium</em> e Prima Verrina) poiché l'imputato fuggì a causa dell'abbondanza di prove e venne così condannato in contumacia. L'Arpinate adotta uno stile bilanciato tra asianesimo e atticismo, che inizia ad essere quello tipico ciceroniano.</p><a class="read-more" href="{{site.baseurl}}/humanae/verrine.html">Testo</a>
             </div>
@@ -117,10 +126,12 @@ title: Linea del tempo
                 </div>
             </div>
             <div class="timeline-content left">
+            <a class="toggle-content">&times;</a>
                 <h2>Pro Lege Manilia</h2>
                 <p>Orazione deliberativa per approvare  la consegna di poteri speciali a Pompeo affinché conducesse la campagna contro Mitridate re del Ponto. Il provvedimento avrebbe favorito il progetto ciceroniano della <em>concordia ordinum</em>, secondo il quale aristocrazia e ceto equestre avrebbero dovuto collaborare per fronteggiare la crisi della repubblica.</p>
             </div>
             <div class="timeline-content right">
+            <a class="toggle-content">&times;</a>
                 <h2>Pretura</h2>
                 <p>Cicerone viene nominato pretore.</p>
             </div>
@@ -132,12 +143,14 @@ title: Linea del tempo
                 </div>
             </div>
             <div class="timeline-content left">
+            <a class="toggle-content">&times;</a>
                 <h2>Catilinarie</h2>
                 <p>Orazioni giudiziarie nelle quali Cicerone assume il ruolo dell'<em>actor</em> (oltre che console) per condannare Catilina e i cospiratori. Lo stile concitato dell'<em>exordium</em> si adegua all'intento di <em>movere</em> gli animi dei giurati e condannare quanto prima Catilina.</p><a class="read-more" href="{{site.baseurl}}/humanae/catilinaria.html">Testo</a>
                 <h2>Pro Murena</h2>
                 <p>Difesa di Lucio Lincinio Murena, condannato da Catone l'Uticense a causa della dissolutezza di costumi di quegli. Con ironia, Cicerone coglie l'occasione per presentare un nuovo modello etico, meno rigido della <em>mos maiorum</em> Catoniana.</p>
             </div>
             <div class="timeline-content right">
+            <a class="toggle-content">&times;</a>
                 <h2>Consolato</h2>
                 <p>Cicerone viene eletto Console.</p>
             </div>
@@ -149,6 +162,7 @@ title: Linea del tempo
                 </div>
             </div>
             <div class="timeline-content left">
+            <a class="toggle-content">&times;</a>
                 <h2>Pro Archia</h2>
                 <p>Difesa del poeta Archio, accusato di aver usurpato la cittadinanza romana. Si trasforma in una difesa della poesia.</p>
             </div>
@@ -160,6 +174,7 @@ title: Linea del tempo
                 </div>
             </div>
             <div class="timeline-content right">
+            <a class="toggle-content">&times;</a>
                 <h2>Esilio</h2>
                 <p>Cicerone viene esiliato a seguito dell'accusa da parte di Clodio di aver condannato Catilina senza un regolare processo.</p>
             </div>
@@ -171,6 +186,7 @@ title: Linea del tempo
                 </div>
             </div>
             <div class="timeline-content right">
+            <a class="toggle-content">&times;</a>
                 <h2>Ritorno</h2>
                 <p>Cicerone ritorna a Roma.</p>
             </div>
@@ -182,6 +198,7 @@ title: Linea del tempo
                 </div>
             </div>
             <div class="timeline-content left">
+            <a class="toggle-content">&times;</a>
                 <h2>Pro Sestio</h2>
                 <p>Orazione in difesa di Sestio, nella quale viene presentato il progetto politico del <em>consensus omnium bonorum</em>, secondo il quale tutti i <em>boni</em> possono contribuire alla realizzazione di un progetto politico.</p>
                 <h2>Pro Caelio</h2>
@@ -197,6 +214,7 @@ title: Linea del tempo
                 </div>
             </div>
             <div class="timeline-content left">
+            <a class="toggle-content">&times;</a>
                 <h2>Pro Milone</h2>
                 <p>Fu considerata la migliore orazione scritta da Cicerone in difesa di un amico, tuttavia mai pronunciata per via del clima in tribunale.</p>
             </div>
@@ -208,6 +226,7 @@ title: Linea del tempo
                 </div>
             </div>
             <div class="timeline-content left">
+            <a class="toggle-content">&times;</a>
                 <h2>Filippiche</h2>
                 <p>Orazioni contro Antonio, riprese da quelle contro Filippo di macedonia prounciate e scritte da Demostene.</p>
             </div>
@@ -219,6 +238,7 @@ title: Linea del tempo
                 </div>
             </div>
             <div class="timeline-content right">
+            <a class="toggle-content">&times;</a>
                 <h2>Morte</h2>
                 <p>A seguito degli attacchi ad Antonio viene inserito nelle liste di proscrizione e decapitato da sicari.</p>
             </div>
