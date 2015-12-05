@@ -11,7 +11,7 @@ body{
     color: $black;
     background: $white;
     margin-right: 12%;
-    margin-left: 12%
+    margin-left: 12%;
 }
 p, ul{
     max-width: 750px;
@@ -31,4 +31,23 @@ h1, h2 {
 h1 {
     color: $red;
     text-transform: uppercase;
+}
+nav {
+    font-family: $second-font;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0px;
+    ul {
+        list-style: none;
+        padding: 0px;
+        li {
+            @include makeClickable();
+            border-bottom: medium solid $grey;
+            float: left;
+            padding: 10px;
+            &:hover {
+                border-bottom: medium solid $darkgrey;
+            } 
+        }
+    }
 }
