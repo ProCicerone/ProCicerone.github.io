@@ -53,26 +53,18 @@ body {
     padding: 10px;
     max-width: 200px;
     div {
+        @include makeButton();
         height: 20px;
         width: 100px;
         float: left;
         background: $grey;
         display: block;
         text-align: center;
-        padding: 10px;
         margin: 5px;
-        border-radius: 5px;
         border: medium solid $grey;
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
     }
     div:hover{
         border: medium solid $white;
-        cursor: pointer;
     } 
     div.clicked {
         color: $white;
@@ -98,17 +90,11 @@ body {
 
 /* FOOTNOTES */
 .foot-number {
+    @include makeClickable();
     color: $red;
     position: relative;
     bottom: 0.75ex;
-    cursor: pointer;
     padding: 0.2em;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 .foot-text {
     background: $grey;

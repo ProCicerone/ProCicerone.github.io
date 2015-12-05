@@ -13,11 +13,6 @@ body {
     background-color: $grey;
     margin: 0 0 0 0;
 }
-a {
-    color: $blue;
-    text-decoration: none;
-    font-family: $second-font;
-}
 
 h1,h2 {
     color: $black;
@@ -226,31 +221,23 @@ header{
 }
 
 .timeline-content .read-more {
-    padding: .4em 0.5em;
-    background: $grey;
-    color: $blue;
-    border-radius: .25em;
+    @include makeButton();
 }
 
-.timeline-content .read-more:hover {
-    background-color: $red;
-    color: $white;
+.timeline-content h2 {
+    font-size: 20px;
+    font-size: 1.25rem;
 }
 
-    .timeline-content h2 {
-        font-size: 20px;
-        font-size: 1.25rem;
-    }
+.timeline-content p {
+    font-size: 16px;
+    font-size: 1rem;
+}
 
-    .timeline-content p {
-        font-size: 16px;
-        font-size: 1rem;
-    }
-
-    .timeline-content .read-more {
-        font-size: 14px;
-        font-size: .875rem;
-    }
+.timeline-content .read-more {
+    font-size: 14px;
+    font-size: .875rem;
+}
 
 @media only screen and (min-width: 1170px) {
     .timeline-content {
@@ -280,18 +267,10 @@ header{
 
 /* TOGGLE ALL */
 #toggle-all {
+    @include makeButton();
     position: fixed;
     bottom: 10px;
     right: 10px;
-    padding: 10px;
     background: $white;
-    color: $blue;
-    font-family: $second-font;
     z-index: 100;
-    cursor: pointer;
-}
-
-#toggle-all:hover {
-    color: white;
-    background: $red;
 }
