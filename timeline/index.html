@@ -22,14 +22,16 @@ title: Linea del tempo
             $('#toggle-all').text('Espandi tutto');
             $(this).data('val', 'espandi');
             $('#toggle-all').click(function() {
-                $('#timeline').find("p").slideToggle("fast", "linear");
-                $('#timeline').find("a").toggle();
                 if ($(this).data('val') === 'espandi') {
                     $(this).data('val', 'chiudi');
                     $('#toggle-all').text('Espandi tutto');
+                    $('#timeline').find("p").slideUp("fast", "linear");
+                    $('#timeline').find("a").hide();
                 } else {
                     $(this).data('val', 'espandi');
                     $('#toggle-all').text('Comprimi tutto');
+                    $('#timeline').find("p").slideDown("fast", "linear");
+                    $('#timeline').find("a").show();
                 }
             });
         });
