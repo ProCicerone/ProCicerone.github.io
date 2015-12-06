@@ -119,8 +119,9 @@ body {
 .foot-number {
     @include makeClickable();
     color: $red;
-    position: relative;
-    bottom: 0.75ex;
+    background: $grey;
+    border-radius: 1ex;
+    font-weight: 700;
     padding: 0.2em;
 }
 .foot-text {

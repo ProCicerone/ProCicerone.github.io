@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $('#foot-wrapper').hide();
+    $('.foot-number').html('*')
     $('.foot-number').data('isOpen', '')
     $('.foot-number').click(function() {
         if (! $(this).data('isOpen')) {
