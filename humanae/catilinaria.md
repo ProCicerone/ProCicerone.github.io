@@ -15,9 +15,10 @@ title: Catilinaria
     <div class="trigger chiasmo">Chiasmo</div>
     <div class="trigger climax">Climax</div>
     <div class="trigger endiadi">Endiadi</div>
-    <div class="trigger iperbato">Iperbato</div>
-    <div class="trigger ironia">Ironia</div>
+    <div class="trigger iperbato">Iperbato</div>    
     <div class="trigger omoteleuto">Omoteleuto</div>
+    <div class="trigger ossimoro">Ossimoro</div>
+    <div class="trigger paranomasia">Paranomasia</div>
     <div class="trigger parallelismo">Parallelismo</div>
     <div class="trigger poliptoto">Poliptoto</div>
     <div class="trigger tmesi">Tmesi</div>

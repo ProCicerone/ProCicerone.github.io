@@ -38,7 +38,7 @@ body {
 .highlight-tmesi {
     background: $lightlime;
 }
-.highlight-ironia {
+.highlight-paranomasia{
     background: $lightblueblue;
 }
 .highlight-zeugma {
@@ -55,6 +55,9 @@ body {
 }
 .highlight-omoteleuto {
     background: $lightbrightgreen;
+}
+.highlight-ossimoro {
+    background: $lightpea;
 }
 .vectorNumber {
     color: $black;
@@ -119,7 +122,7 @@ body {
     div.tmesi.clicked {
         background: $lime;
     }
-    div.ironia.clicked {
+    div.paranomasia.clicked {
          background: $blueblue;
     }
     div.zeugma.clicked {
@@ -130,12 +133,15 @@ body {
     }
     div.climax.clicked {
         background: $ice;
-    }   
+    }
     div.anastrofe.clicked {
         background: $fashionaf;
     }
     div.omoteleuto.clicked {
         background: $brightgreen;
+    }
+    div.ossimoro.clicked {
+        background: $pea;
     }
 }
 
