@@ -27,9 +27,9 @@
 <div id="foot-wrapper">
 <ol>
     <li id="ft-1">Forma contratta di *abuteris*, indicativo futuro deponente di seconda persona singolare</li>
-    <li id="ft-2">Ironia. Contapposta chiasmicamente al *viri fortes* non ironico del paragrafo 3</li>
+    <li id="ft-2">Ironia. Contrapposta chiasmicamente al *viri fortes* non ironico del paragrafo 3</li>
     <li id="ft-3">Arcaismo, sta per *omnes*</li>
-    <li id="ft-4">[nos...te]:Contapposizione tra il noi del senato *fortes viri* impotenti, e il te di Catilina, malfattore</li>
+    <li id="ft-4">[nos...te]:Contrapposizione tra il noi del senato *fortes viri* impotenti, e il te di Catilina, malfattore</li>
 </ol>
 </div>
 <div id="trigger-wrapper">
