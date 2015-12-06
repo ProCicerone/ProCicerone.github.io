@@ -8,6 +8,18 @@ body {
     margin: 15px 15px 15px 15px;
 }
 
+#burger {
+    visibility: hidden;
+    font-size: 24px;
+    background: $grey;
+    border-radius: 0.5em;
+    text-align: center;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    padding: 5px;
+    margin: 1em 1em 1em 1em;
+}
 
 /* TARGETS */
 .highlight-parallelismo {
@@ -42,6 +54,18 @@ body {
 }
 .highlight-zeugma {
     background: $lightsiena;
+}
+.highlight-alliterazione {
+    background: $lightbrick;
+}
+.highlight-climax {
+    background: $lightice;
+}
+.highlight-anastrofe {
+    background: $lightfashionaf;
+}
+.highlight-omoteleuto {
+    background: $lightbrightgreen;
 }
 .vectorNumber {
     color: $black;
@@ -111,6 +135,18 @@ body {
     }
     div.zeugma.clicked {
         background: $siena;
+    }
+    div.alliterazione.clicked {
+        background: $brick;
+    }
+    div.climax.clicked {
+        background: $ice;
+    }   
+    div.anastrofe.clicked {
+        background: $fashionaf;
+    }
+    div.omoteleuto.clicked {
+    background: $brightgreen;
     }
 }
 

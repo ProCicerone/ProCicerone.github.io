@@ -19,4 +19,8 @@ title: Catilinaria
     <div class="trigger tmesi">Tmesi</div>
     <div class="trigger ironia">Ironia</div>
     <div class="trigger zeugma">Zeugma</div>
+    <div class="trigger alliterazione">Alliterazione</div>
+    <div class="trigger omoteleuto">Omoteleuto</div>
+    <div class="trigger anastrofe">Anastrofe</div>
+    <div class="trigger climax">Climax</div>
 </div>
