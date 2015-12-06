@@ -8,18 +8,7 @@ body {
     margin: 15px 15px 15px 15px;
 }
 
-#burger {
-    visibility: hidden;
-    font-size: 24px;
-    background: $grey;
-    border-radius: 0.5em;
-    text-align: center;
-    position: fixed;
-    right: 0px;
-    top: 0px;
-    padding: 5px;
-    margin: 1em 1em 1em 1em;
-}
+
 
 /* TARGETS */
 .highlight-parallelismo {
@@ -81,7 +70,7 @@ body {
     position: fixed;
     top: 12%;
     padding: 10px;
-    max-width: 200px;
+    max-width: 500px;
     div {
         @include makeButton();
         height: 20px;
@@ -146,7 +135,7 @@ body {
         background: $fashionaf;
     }
     div.omoteleuto.clicked {
-    background: $brightgreen;
+        background: $brightgreen;
     }
 }
 
@@ -187,26 +176,22 @@ body {
 /* big screen */
 @media only screen and (min-width: 1350px) {
     #trigger-wrapper {
-        right: 25%;
+        left: 60%;
     }
-}
-
-/* small screen */
-@media only screen and (max-width: 1350px) {
-    #trigger-wrapper {
-        right: 12%;
+    p {
+        width: 55%;
     }
 }
 
 /* mobile*/
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1350px) {
     #trigger-wrapper {
         position: fixed;
         right: -140px;  /* - (padding *2 + width */
         padding: 10px;
         background: $grey;
         width: 120px;
-        height: 300px;
+        height: 100%;
         overflow: auto;
         &.open {
             right: 0px;
