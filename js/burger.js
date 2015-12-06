@@ -1,12 +1,14 @@
 $(document).ready(function(){
-    $('#burger').data('isClosed', '');
+    $('#burger').data('isClosed', 'no');
     $('#burger').click(function() {
-        if (!($(this).data('isClosed'))) {
-            $('#trigger-wrapper').animate({right: '25%'}, 500);
-            $(this).data('isClosed', 'yes');
-        } else {
-            $('#trigger-wrapper').animate({right: '-200px'}, 500);
+        if (($(this).data('isClosed'))) { // open
+            $('body').addClass('noscroll');
+            $('#trigger-wrapper').addClass('open');
             $(this).data('isClosed', '');
+        } else { // close
+            $('body').removeClass('noscroll');
+            $('#trigger-wrapper').removeClass('open');
+            $(this).data('isClosed', 'no');
         }
     });
 });

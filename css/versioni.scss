@@ -8,18 +8,6 @@ body {
     margin: 15px 15px 15px 15px;
 }
 
-#burger {
-    visibility: hidden;
-    font-size: 24px;
-    background: $grey;
-    border-radius: 0.5em;
-    text-align: center;
-    position: fixed;
-    right: 0px;
-    top: 0px;
-    padding: 5px;
-    margin: 1em 1em 1em 1em;
-}
 
 /* TARGETS */
 .highlight-parallelismo {
@@ -82,12 +70,6 @@ body {
         margin: 5px;
         border-radius: 5px;
         border: medium solid $grey;
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
     }
     div:hover{
         border: medium solid $white;
@@ -150,23 +132,72 @@ body {
 
 /* MOBILE */
 /* RESPONSIVE */
+
+#burger {
+    @include makeClickable();
+    visibility: hidden;
+    font-size: 24px;
+    background: $grey;
+    border-radius: 0.5em;
+    text-align: center;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    padding: 5px;
+    margin: 1em 1em 1em 1em;
+}
+
+/* big screen */
 @media only screen and (min-width: 1350px) {
     #trigger-wrapper {
         right: 25%;
     }
 }
 
+/* small screen */
 @media only screen and (max-width: 1350px) {
     #trigger-wrapper {
         right: 12%;
     }
 }
 
+/* mobile*/
 @media only screen and (max-width: 1150px) {
     #trigger-wrapper {
-        right: -200px;
+        position: fixed;
+        right: -140px;  /* - (padding *2 + width */
+        padding: 10px;
+        background: $grey;
+        width: 120px;
+        height: 300px;
+        overflow: auto;
+        &.open {
+            right: 0px;
+        }
+        .trigger {
+            padding: 0px;
+            background: inherit;
+            border: none;
+            text-align: left;
+            border-bottom: medium solid $white;
+            border-radius: 0px;
+            &:hover {
+                border: none;
+                border-bottom: medium solid $white;
+                color: $lightblue;
+                background: $darkgrey;
+            }
+            &.clicked {
+                border: none;
+                border-bottom: medium solid $white;
+            }
+        }
     }
     #burger {
         visibility: visible;
     }
+}
+
+.noscroll {
+    overflow: hidden;
 }
