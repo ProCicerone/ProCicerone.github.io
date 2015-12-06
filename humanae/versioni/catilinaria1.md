@@ -1,9 +1,9 @@
 #Catilinaria 1, 1-6
 
 ##Testo latino
-[1] Quo usque tandem abutere, Catilina, patientia nostra? quam diu etiam furor iste tuus nos eludet? quem ad finem sese effrenata iactabit audacia? Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae, nihil timor populi, nihil concursus bonorum omnium, nihil hic munitissimus habendi senatus locus, nihil horum ora voltusque moverunt? Patere tua consilia non sentis, constrictam iam horum omnium scientia teneri coniurationem tuam non vides? Quid proxima, quid superiore nocte egeris, ubi fueris, quos convocaveris, quid consilii ceperis, quem nostrum ignorare arbitraris?
+[1] Quo usque tandem abutere<span class="foot-number" id="fn-1">1</span>, <span class="target vector variatio" id="vr-1">Catilina</span>, patientia nostra? quam diu etiam furor <span class="target vector variatio" id="vr-1">itse</span> tuus nos eludet? quem ad finem <span class="target vector variatio" id="vr-1">sese</span> effrenata iactabit audacia? <span class="target vector anafora" id="an-1">Nihilne</span> te nocturnum praesidium Palati, <span class="target vector anafora" id="an-1">nihil</span> urbis vigiliae, <span class="target vector anafora" id="an-1">nihil</span> timor populi, <span class="target vector anafora" id="an-1">nihil</span> concursus bonorum omnium, <span class="target vector anafora" id="an-1">nihil</span> hic munitissimus habendi senatus locus, <span class="target vector anafora" id="an-1">nihil</span> horum ora voltusque moverunt? Patere tua consilia non sentis, constrictam iam horum omnium scientia teneri coniurationem tuam non vides? Quid proxima, quid superiore nocte egeris, ubi fueris, quos convocaveris, quid consilii ceperis, quem nostrum ignorare arbitraris?
 
-[2] O tempora, o mores! Senatus haec intellegit. consul videt; hic tamen vivit. Vivit? immo vero etiam in senatum venit, fit publici consilii particeps, notat et designat oculis ad caedem unum quemque nostrum. Nos autem fortes viri satis facere rei publicae videmur, si istius furorem ac tela vitemus. Ad mortem te, Catilina, duci iussu consulis iam pridem oportebat, in te conferri pestem, quam tu in nos [omnes iam diu] machinaris.
+[2] O tempora, o mores! Senatus haec intellegit. consul videt; hic tamen vivit. Vivit? immo vero etiam in senatum venit, fit publici consilii particeps, notat et designat oculis ad caedem unum quemque nostrum. Nos autem fortes viri<span class="foot-number" id="fn-1">2</span> satis facere rei publicae videmur, si istius furorem ac tela vitemus. Ad mortem te, Catilina, duci iussu consulis iam pridem oportebat, in te conferri pestem, quam tu in nos omnis<span class="foot-number" id="fn-1">3</span> [omnes iam diu] machinaris.<span class="foot-number" id="fn-1">4</span>
 
 [3] An vero vir amplissumus, P. Scipio, pontifex maximus, Ti. Gracchum mediocriter labefactantem statum rei publicae privatus interfecit; Catilinam orbem terrae caede atque incendiis vastare cupientem nos consules perferemus? Nam illa nimis antiqua praetereo, quod C. Servilius Ahala Sp. Maelium novis rebus studentem manu sua occidit. Fuit, fuit ista quondam in hac re publica virtus, ut viri fortes acrioribus suppliciis civem perniciosum quam acerbissimum hostem coercerent. Habemus senatus consultum in te, Catilina, vehemens et grave, non deest rei publicae consilium neque auctoritas huius ordinis; nos, nos, dico aperte, consules desumus.
 [4] Decrevit quondam senatus, ut L. Opimius consul videret, ne quid res publica detrimenti caperet; nox nulla intercessit; interfectus est propter quasdam seditionum suspiciones C. Gracchus, clarissimo patre, avo, maioribus, occisus est cum liberis M. Fulvius consularis. Simili senatus consulto C. Mario et L. Valerio consulibus est permissa res publica; num unum diem postea L. Saturninum tribunum pl. et C. Servilium praetorem mors ac rei publicae poena remorata est? At [vero] nos vicesimum iam diem patimur hebescere aciem horum auctoritatis. Habemus enim huiusce modi senatus consultum, verum inclusum in tabulis tamquam in vagina reconditum, quo ex senatus consulto confestim te interfectum esse, Catilina, convenit. Vivis, et vivis non ad deponendam, sed ad confirmandam audaciam. Cupio, patres conscripti, me esse clementem, cupio in tantis rei publicae periculis me non dissolutum videri, sed iam me ipse inertiae nequitiaeque condemno.
@@ -23,3 +23,25 @@
 [5] Vi sono accampamenti in Italia contro il popolo romano collocati alle porte dell'Etruria; di giorno in giorno [lett.: in un singolo giorno] aumenta il numero dei nemici: inoltre vediamo l'*imperator* di questi accampamenti e il comandante dei nemici, tra le mura e persino in senato, che smuove quotidianamente un qualche flagello intestino per lo stato. Se ormai, Catilina, ordinerò che tu sia catturato, se (ordinerò che tu) sia ucciso, credo che dovrò temere che tutti i *boni* (dicano) che ciò è stato fatto troppo lentamente, quanto che qualcuno dica (che ciò è stato fatto) troppo crudelmente. In realtà io per una precisa motivazione non sono ancora spinto a fare ciò che già precedentemente era opportuno fosse stato fatto. Allora infine sarai ucciso, poiché non si potrà più trovare nessuno tanto disonesto, tanto depravato, tanto simile a te, che non dichiari che ciò sia stato fatto secondo giustizia.
 
 [6] Fintanto che ci sarà qualcuno che oserà difenderti, vivrai così come vivi, assediato dai miei molti e irremovibili presidi, perché tu non possa agire contro lo stato. Anche gli occhi e le orecchie di molti, così come hanno fatto finora, ti guarderanno e sorveglieranno senza che tu lo sappia.
+
+<div id="foot-wrapper">
+<ol>
+    <li id="ft-1">Forma contratta di *abuteris*, indicativo futuro deponente di seconda persona singolare</li>
+    <li id="ft-2">Ironia. Contapposta chiasmicamente al *viri fortes* non ironico del paragrafo 3</li>
+    <li id="ft-3">Arcaismo, sta per *omnes*</li>
+    <li id="ft-4">[nos...te]:Contapposizione tra il noi del senato *fortes viri* impotenti, e il te di Catilina, malfattore</li>
+</ol>
+</div>
+<div id="trigger-wrapper">
+    <div class="trigger variatio">Variatio</div>
+    <div class="trigger anafora">Anafora</div>
+    <div class="trigger parallelismo">Parallelismo</div>
+    <div class="trigger chiasmo">Chiasmo</div>
+    <div class="trigger iperbato">Iperbato</div>
+    <div class="trigger endiadi">Endiadi</div>
+    <div class="trigger poliptoto">Poliptoto</div>
+    <div class="trigger anadiplosi">Anadiplosi</div>
+    <div class="trigger tmesi">Tmesi</div>
+    <div class="trigger ironia">Ironia</div>
+    <div class="trigger zeugma">Zeugma</div>
+</div>

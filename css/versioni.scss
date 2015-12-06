@@ -18,24 +18,42 @@ body {
     right: 0px;
     top: 0px;
     padding: 5px;
-    margin: 1em 1em 1em 1em; 
+    margin: 1em 1em 1em 1em;
 }
 
 /* TARGETS */
-.highlight-yellow {
+.highlight-parallelismo {
     background: $lightyellow;
 }
-.highlight-red {
+.highlight-variatio {
     background: $lightred;
 }
-.highlight-blue {
+.highlight-anafora {
     background: $lightblue;
 }
-.highlight-green {
+.highlight-chiasmo {
     background: $lightgreen;
 }
-.highlight-orange {
+.highlight-iperbato {
     background: $lightorange;
+}
+.highlight-endiadi {
+    background: $lightpurple;
+}
+.highlight-poliptoto {
+    background: $lightazure;
+}
+.highlight-anadiplosi {
+    background: $lightmagenta;
+}
+.highlight-tmesi {
+    background: $lightlime;
+}
+.highlight-ironia {
+    background: $lightblueblue;
+}
+.highlight-zeugma {
+    background: $lightsiena;
 }
 .vectorNumber {
     color: $black;
@@ -60,30 +78,57 @@ body {
         background: $grey;
         display: block;
         text-align: center;
+        padding: 10px;
         margin: 5px;
+        border-radius: 5px;
         border: medium solid $grey;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
     }
     div:hover{
         border: medium solid $white;
-    } 
+        cursor: pointer;
+    }
     div.clicked {
         color: $white;
         border: medium solid $white;
     }
-    div.red.clicked {
+    div.variatio.clicked {
         background: $red;
     }
-    div.blue.clicked {
+    div.anafora.clicked {
         background: $blue;
     }
-    div.yellow.clicked {
+    div.parallelismo.clicked {
         background: $yellow;
     }
-    div.green.clicked {
+    div.chiasmo.clicked {
         background: $green;
     }
-    div.orange.clicked {
+    div.iperbato.clicked {
         background: $orange;
+    }
+    div.endiadi.clicked {
+        background: $purple;
+    }
+    div.poliptoto.clicked {
+        background: $azure;
+    }
+    div.anadiplosi.clicked {
+        background: $magenta;
+    }
+    div.tmesi.clicked {
+        background: $lime;
+    }
+    div.ironia.clicked {
+         background: $blueblue;
+    }
+    div.zeugma.clicked {
+        background: $siena;
     }
 }
 
@@ -99,7 +144,7 @@ body {
 .foot-text {
     background: $grey;
     border-radius: 0.25ex;
-    padding: 0.2em; 
+    padding: 0.2em;
 }
 
 
@@ -125,4 +170,3 @@ body {
         visibility: visible;
     }
 }
-
