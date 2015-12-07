@@ -1,5 +1,7 @@
 #Catilinaria 1, 32-33
 
+*La prima catilinaria si conclude con una peroratio vibrante, caratterizzata all'inizio da un periodare paratattico e ricco di climax, infine dall'invocazione a Giove affinché Catinila abbandoni la patria, cosa che farà la sera stessa.*
+
 ##Testo latino
 
 [32] Quare secedant inprobi, <span class="target poliptoto">secernant</span> se a bonis, <span class="target anastrofe">unum in locum</span> congregentur, muro denique, [id] quod saepe iam dixi, <span class="target poliptoto">secernantur</span> a nobis; desinant insidiari domi suae consuli, <span class="target parallelismo">circumstare tribunal</span> praetoris urbani, <span class="target parallelismo chiasmo">obsidere</span> cum gladiis <span class="target parallelismo chiasmo">curiam</span>, <span class="target chiasmo">malleolos et faces</span> ad     inflammandam urbem <span class="target chiasmo">comparare</span>; sit denique inscriptum in fronte <span class="target tmesi">unius cuiusque</span>, quid de re publica sentiat. Polliceor hoc vobis, patres conscripti, <span class="target anafora">tantam</span> in nobis consulibus fore diligentiam, <span class="target anafora">tantam</span> in vobis auctoritatem, <span class="target anafora">tantam</span> in equitibus Romanis virtutem, <span class="target anafora">tantam</span> in omnibus bonis consensionem<span class="foot-number" id="fn-9">1</span>, ut Catilinae profectione omnia <span class="target climax alliterazione">patefacta, inlustrata, oppressa, vindicata</span><span class="foot-number" id="fn-10">2</span> esse videatis.
