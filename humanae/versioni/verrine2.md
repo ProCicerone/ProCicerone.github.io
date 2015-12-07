@@ -1,5 +1,7 @@
 #Verrine 2, 5, 26-27
 
+*Adornata di brillante ironia antifrastica, in questo brano Cicerone descrive la vita lussusa condotta da Verre (a spese dei siciliani) e l'amministazione corrotta della giustizia."
+
 ##Testo latino
 [26] Itinerum primum laborem, qui vel maximus est in re militari, iudices, et in Sicilia maxime necessarius, accipite quam facilem sibi iste et iucundum ratione consilioque reddiderit. Primum temporibus hibernis ad magnitudinem frigorum et tempestatum vim ac fluminum praeclarum hoc sibi remedium compararat. Vrbem Syracusas elegerat, cuius hic situs atque haec natura esse loci caelique dicitur ut nullus umquam dies tam magna ac turbulenta tempestate fuerit quin aliquo tempore eius diei solem homines viderint. Hic ita vivebat iste bonus imperator hibernis mensibus ut eum non facile non modo extra tectum, sed ne extra lectum quidem quisquam viderit; ita diei brevitas conviviis, noctis longitudo stupris et flagitiis continebatur.
 
