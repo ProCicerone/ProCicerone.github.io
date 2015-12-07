@@ -26,7 +26,7 @@
 
 [6] Fintanto che ci sarà qualcuno che oserà difenderti, vivrai così come vivi, assediato dai miei molti e irremovibili presidi, perché tu non possa agire contro lo stato. Anche gli occhi e le orecchie di molti, così come hanno fatto finora, ti guarderanno e sorveglieranno senza che tu lo sappia.
 
-<div id="foot-wrapper">
+<div class="foot-wrapper">
 <ol>
     <li id="ft-1">Forma contratta di *abuteris*, indicativo futuro deponente di seconda persona singolare</li>
     <li id="ft-2">Ironia. Contrapposta chiasmicamente al *viri fortes* non ironico del paragrafo 3</li>

@@ -16,7 +16,7 @@
 
 [19] Se la patria parlasse con te come ho detto, non dovrebbe forse ottener(lo), nonostante non possa utilizzare la forza?
 
-<div id="foot-wrapper">
+<div class="foot-wrapper">
 <ol>
     <li id="ft-6">mei, me: figura etimologica considerabile come poliptoto</li>
     <li id="ft-7">te tui: figura etimologica (v.s.)</li>

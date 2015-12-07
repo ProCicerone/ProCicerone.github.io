@@ -12,7 +12,7 @@
 
 [33] Per tutti i presagi, Catilina, per la salvezza della repubblica, per tua calamità e danno, per la distruzione di tutti coloro, che si unirono con te in ogni delitto e parricidio, parti per l'empia e nefasta guerra. Tu, Giove, che sei stato fondato da Romolo con gli stessi auspici, per i quali (ha fondato) la città, che chiamiamo giustamente Statore di questa città e del potere, trattieni questo e gli alleati di questo dai tuoi (altari) e da tutti i templi, dai tetti della città e dalle mura, dalla vita e dal destino dei cittadini, e uccidi con eterni supplizi, vivi e morti, gli uomini avversi ai *boni*, nemici della patria, ladri dell'Italia, legati dal patto di crimini e da una nefasta alleanza.
 
-<div id="foot-wrapper">
+<div class="foot-wrapper">
 <ol>
     <li id="ft-9">tantam in nobis consulibu diligentiam, tantam in vobis auctoritatem, tantam in equitibus Romanis virtutem, tantam in omnibus bonis consensionem: parallelismi e climax</li>
     <li id="ft-10">climax asccendente alliterazione di a, s e t</li>
